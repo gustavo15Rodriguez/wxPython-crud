@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<resource xmlns="http://www.wxwindows.org/wxxrc" version="2.3.0.1">
+	<object class="wxFrame" name="RegistroGame">
+		<style>wxDEFAULT_FRAME_STYLE|wxTAB_TRAVERSAL</style>
+		<size>619,437</size>
+		<title>Game registration</title>
+		<centered>1</centered>
+		<aui_managed>0</aui_managed>
+		<object class="wxPanel" name="panelGame">
+			<style>wxTAB_TRAVERSAL</style>
+			<bg>#bfcddb</bg>
+			<object class="wxBoxSizer">
+				<orient>wxHORIZONTAL</orient>
+				<object class="sizeritem">
+					<option>0</option>
+					<flag>wxALL</flag>
+					<border>3</border>
+					<object class="wxBitmapButton" name="m_bpButton1">
+						<style>wxBU_AUTODRAW</style>
+						<bitmap>../view/images/addgame.jpg</bitmap>
+						<default>0</default>
+					</object>
+				</object>
+				<object class="sizeritem">
+					<option>1</option>
+					<flag>wxEXPAND</flag>
+					<border>5</border>
+					<object class="wxBoxSizer">
+						<orient>wxVERTICAL</orient>
+						<object class="sizeritem">
+							<option>1</option>
+							<flag>wxEXPAND</flag>
+							<border>5</border>
+							<object class="wxBoxSizer">
+								<orient>wxVERTICAL</orient>
+								<object class="spacer">
+									<option>0</option>
+									<flag>wxEXPAND</flag>
+									<border>5</border>
+									<size>0,12</size>
+								</object>
+								<object class="sizeritem">
+									<option>0</option>
+									<flag>wxALIGN_CENTER_HORIZONTAL|wxALL</flag>
+									<border>5</border>
+									<object class="wxStaticText" name="TextPrinGame">
+										<font>
+											<size>9</size>
+											<family>roman</family>
+											<style>normal</style>
+											<weight>normal</weight>
+											<underlined>0</underlined>
+											<face>Goudy Stout</face>
+										</font>
+										<label>Add Video Game</label>
+										<wrap>-1</wrap>
+									</object>
+								</object>
+								<object class="sizeritem">
+									<option>0</option>
+									<flag>wxALIGN_CENTER_HORIZONTAL|wxALL</flag>
+									<border>5</border>
+									<object class="wxStaticText" name="name">
+										<font>
+											<size>9</size>
+											<family>roman</family>
+											<style>normal</style>
+											<weight>normal</weight>
+											<underlined>0</underlined>
+											<face>Cooper Black</face>
+										</font>
+										<label>Name</label>
+										<wrap>-1</wrap>
+									</object>
+								</object>
+								<object class="sizeritem">
+									<option>0</option>
+									<flag>wxALIGN_CENTER_HORIZONTAL|wxALL|wxEXPAND</flag>
+									<border>5</border>
+									<object class="wxTextCtrl" name="textCtrlNameGame">
+										<value></value>
+									</object>
+								</object>
+								<object class="sizeritem">
+									<option>0</option>
+									<flag>wxALIGN_CENTER_HORIZONTAL|wxALL</flag>
+									<border>5</border>
+									<object class="wxStaticText" name="company">
+										<font>
+											<size>9</size>
+											<family>roman</family>
+											<style>normal</style>
+											<weight>normal</weight>
+											<underlined>0</underlined>
+											<face>Cooper Black</face>
+										</font>
+										<label>Company</label>
+										<wrap>-1</wrap>
+									</object>
+								</object>
+								<object class="sizeritem">
+									<option>0</option>
+									<flag>wxALIGN_CENTER_HORIZONTAL|wxALL|wxEXPAND</flag>
+									<border>5</border>
+									<object class="wxTextCtrl" name="textCtrlCompanyGame">
+										<value></value>
+									</object>
+								</object>
+								<object class="sizeritem">
+									<option>0</option>
+									<flag>wxALIGN_CENTER_HORIZONTAL|wxALL</flag>
+									<border>5</border>
+									<object class="wxStaticText" name="gender">
+										<font>
+											<size>9</size>
+											<family>roman</family>
+											<style>normal</style>
+											<weight>normal</weight>
+											<underlined>0</underlined>
+											<face>Cooper Black</face>
+										</font>
+										<label>Gender</label>
+										<wrap>-1</wrap>
+									</object>
+								</object>
+								<object class="sizeritem">
+									<option>0</option>
+									<flag>wxALIGN_CENTER_HORIZONTAL|wxALL|wxEXPAND</flag>
+									<border>5</border>
+									<object class="wxTextCtrl" name="textCtrlGender">
+										<value></value>
+									</object>
+								</object>
+								<object class="sizeritem">
+									<option>0</option>
+									<flag>wxALIGN_CENTER_HORIZONTAL|wxALL</flag>
+									<border>5</border>
+									<object class="wxStaticText" name="duration_hours">
+										<font>
+											<size>9</size>
+											<family>roman</family>
+											<style>normal</style>
+											<weight>normal</weight>
+											<underlined>0</underlined>
+											<face>Cooper Black</face>
+										</font>
+										<label>Duration Hours</label>
+										<wrap>-1</wrap>
+									</object>
+								</object>
+								<object class="sizeritem">
+									<option>0</option>
+									<flag>wxALIGN_CENTER_HORIZONTAL|wxALL|wxEXPAND</flag>
+									<border>5</border>
+									<object class="wxTextCtrl" name="textCtrlDurationGame">
+										<value></value>
+									</object>
+								</object>
+								<object class="sizeritem">
+									<option>0</option>
+									<flag>wxALIGN_CENTER_HORIZONTAL|wxALL</flag>
+									<border>5</border>
+									<object class="wxStaticText" name="state">
+										<font>
+											<size>9</size>
+											<family>roman</family>
+											<style>normal</style>
+											<weight>normal</weight>
+											<underlined>0</underlined>
+											<face>Cooper Black</face>
+										</font>
+										<label>State</label>
+										<wrap>-1</wrap>
+									</object>
+								</object>
+								<object class="sizeritem">
+									<option>0</option>
+									<flag>wxALIGN_CENTER_HORIZONTAL|wxALL|wxEXPAND</flag>
+									<border>5</border>
+									<object class="wxTextCtrl" name="textCtrlStateGame">
+										<value></value>
+									</object>
+								</object>
+								<object class="sizeritem">
+									<option>0</option>
+									<flag>wxALIGN_CENTER_HORIZONTAL|wxALL</flag>
+									<border>5</border>
+									<object class="wxStaticText" name="location">
+										<font>
+											<size>9</size>
+											<family>roman</family>
+											<style>normal</style>
+											<weight>normal</weight>
+											<underlined>0</underlined>
+											<face>Cooper Black</face>
+										</font>
+										<label>Location</label>
+										<wrap>-1</wrap>
+									</object>
+								</object>
+								<object class="sizeritem">
+									<option>0</option>
+									<flag>wxALL|wxEXPAND</flag>
+									<border>5</border>
+									<object class="wxFilePickerCtrl" name="fileLocationGame">
+										<value></value>
+										<message>Select a file</message>
+										<wildcard>*.*</wildcard>
+										<style>wxFLP_DEFAULT_STYLE</style>
+									</object>
+								</object>
+								<object class="spacer">
+									<option>0</option>
+									<flag>wxEXPAND</flag>
+									<border>5</border>
+									<size>0,9</size>
+								</object>
+								<object class="sizeritem">
+									<option>0</option>
+									<flag>wxALIGN_CENTER_HORIZONTAL</flag>
+									<border>5</border>
+									<object class="wxStdDialogButtonSizer">
+										<object class="button">
+											<flag>wxALIGN_CENTER_HORIZONTAL|wxALL</flag>
+											<border>5</border>
+											<object class="wxButton" name="wxID_OK">
+												<label>&amp;OK</label>
+											</object>
+										</object>
+										<object class="button">
+											<flag>wxALIGN_CENTER_HORIZONTAL|wxALL</flag>
+											<border>5</border>
+											<object class="wxButton" name="wxID_CANCEL">
+												<label>&amp;Cancel</label>
+											</object>
+										</object>
+									</object>
+								</object>
+							</object>
+						</object>
+					</object>
+				</object>
+			</object>
+		</object>
+	</object>
+</resource>
